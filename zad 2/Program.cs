@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Въведете число:");
             int number = int.Parse(Console.ReadLine());
             Console.WriteLine($"{Powerof2(number)}");
         }
