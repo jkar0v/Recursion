@@ -4,8 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Въведете число:");
+            Console.WriteLine("Enter a number:");
             int number = int.Parse(Console.ReadLine());
+            Console.WriteLine("Is this a power of 2:");
             Console.WriteLine($"{Powerof2(number)}");
         }
         static bool Powerof2(int number)

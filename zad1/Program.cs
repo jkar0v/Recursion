@@ -6,6 +6,7 @@
         {
             Console.WriteLine("Enter a number to be calculated:");
             long number = long.Parse(Console.ReadLine());
+            Console.WriteLine("The sum of the numbers is:");
             Console.WriteLine(Calculate(number));
         }
         static long Calculate(long number)
